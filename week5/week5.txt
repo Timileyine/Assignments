@@ -1,0 +1,5 @@
+I am Timileyin, I am a Nigerian from Oyo state, 
+a Computer Scientist with specialization in 
+Machine Learning/Artificial Intelligence/Data Science/
+Natural Language Processing. This is my week 5 task
+in Zuri frontend development class.
