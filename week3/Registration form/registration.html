@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2>REGISTER HERE</h2>
+        <h3>Please fill out the form carefully</h3> <hr>
+        <form action="login.html">
+            <label>First Name: </label>
+            <input type="text" name="Firstname" id="first_name" placeholder="Enter your first name here" required> <br> <br>
+
+            <label>Last Name: </label>
+            <input type="text" name="Lastname" id="last_name" placeholder="Enter your last name here" required> <br> <br>
+
+            <label>Telephone Number: </label>
+            <input type="tel" name="Telephone" id="telephone" placeholder="Enter your phone number here">  <br> <br>
+
+            <label>Email Address: </label>
+            <input type="email" name="Email" id="email" placeholder="example@example.com" required>  <br> <br>
+
+            <label>Password: </label>
+            <input type="password" name="Password" id="password" placeholder="*********************" required>  <br> <br>
+
+            <label> Gender: </label>
+                <select name="gender" id="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+                 <br> <br>
+
+            <label>Date of Birth </label>
+            <input type="date" name="Date" id="date" required> <br> <br>
+
+            <label> Favorite Color </label>
+            <input type="color" name="Colour" id="color"> <br> <br>
+            
+            <button type="submit" id="regbutton"> Register  </button>
+        </form>
+            
+    </div>
+</body>
+</html>

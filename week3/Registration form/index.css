@@ -1,0 +1,53 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 20px;
+}
+
+body{
+    background-color: aqua;
+    text-align: center;
+}
+
+h2{
+    font: 6rem;
+    color: black;
+}
+
+/* #first_name, #last_name, #telephone, #email, #gender, #date, #color, #password{ 
+    height: 27px;
+    width: 280px;
+    margin: 10px;
+    border: none;
+} */
+
+label{
+    font-size: 25px;
+}
+input{
+    height: 27px;
+    width: 280px;
+    margin: 10px;
+    border: none
+}
+input:hover{
+    color: rgb(10, 10, 20);
+    background-color:rgb(42, 165, 155);
+}
+
+#regbutton, #loginbutton{
+    height: 27px;
+    width: 100%;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: crimson;
+    background-color: rgb(18, 22, 18);
+}
